@@ -5,40 +5,32 @@
   <title>Список</title>
  </head>
  <body>
-  <form>
+
+ 	<form>
    <p><select name="regions">
     <optgroup label="Регионы">
-     <option value="r0"><a href="bmp/f0.bmp">f0</a></option>
-     <option value="r1"><a href="bmp/f1.bmp">f1</a></option>
-     <option value="r2"><a href="bmp/f2.bmp">f2</a></option>
-     <option value="r3"><a href="bmp/f3.bmp">f3</a></option>
-     <option value="r4"><a href="bmp/f4.bmp">f4</a></option>
-     <option value="r5"><a href="bmp/f5.bmp">f5</a></option>
-     <option value="r6"><a href="bmp/f6.bmp">f6</a></option>
-     <option value="r7"><a href="bmp/f7.bmp">f7</a></option>
+     <option value="r0">f0</option>
+     <option value="r1">f1</option>
+     <option value="r2">f2</option>
+     <option value="r3">f3</option>
+     <option value="r4">f4</option>
+     <option value="r5">f5</option>
+     <option value="r6">f6</option>
+     <option value="r7">f7</option>
     </optgroup>
    </select>
 </p>
      </form>
-<!--
-<img name = 'f0' src = 'bmp/f0.bmp' />
-<img name = 'f1' src = 'bmp/f1.bmp' />
-<img name = 'f2' src = 'bmp/f2.bmp' />
-<img name = 'f3' src = 'bmp/f3.bmp' />
-<img name = 'f4' src = 'bmp/f4.bmp' />
-<img name = 'f5' src = 'bmp/f5.bmp' />
-<img name = 'f6' src = 'bmp/f6.bmp' />
-<img name = 'f7' src = 'bmp/f7.bmp' />
--->
+  
 <script language = 'javascript'>
   var flag = 0;
   function changeImage() {
     if (flag == 0) {
-      document.img.src = 'bmp/f0.bmp';
+      document.img.src = 'BMP/f0.bmp';
       flag = 1;
     }
     else {
-      document.img.src = 'bmp/f1.bmp';
+      document.img.src = 'BMP/f1.bmp';
       flag = 0;
     }
   }
@@ -48,7 +40,6 @@
   <input type = 'button' value = 'Сменить изображение' onClick = 'changeImage()' />
 </form>
 
-<IMG SRC=BMP/f0.bmp>
 
 
 

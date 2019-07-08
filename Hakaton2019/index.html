@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Список</title>
+ </head>
+
+ <body background="BMP/back.jpg">
+<div aling = 'center' style="margin-left: 20%;"><font color="white"><H1><b>Модуль "Графическое отображение статистических данных"</b></H1></font></div>
+	<form style="margin-left: 40%;">
+   <p><select name="regions" id="reg1">
+    <optgroup label="Федеральные округа">
+     <option value="0" onClick = 'changeImage0()' >Центральный федеральный округ</option>
+     <option value="1" onClick = 'changeImage1()' >Северо-Западный федеральный округ</option>
+     <option value="2" onClick = 'changeImage2()' >Южный федеральный округ</option>
+     <option value="3" onClick = 'changeImage3()' >Северо-Кавказский федеральный округ</option>
+     <option value="4" onClick = 'changeImage4()' >Приволжский федеральный округ</option>
+     <option value="5" onClick = 'changeImage5()' >Уральский федеральный округ</option>
+     <option value="6" onClick = 'changeImage6()' >Сибирский федеральный округ</option>
+     <option value="7" onClick = 'changeImage7()' >Дальневосточный федеральный округ</option>
+    </optgroup>
+   </select>
+</p>
+     </form>
+<script language = 'javascript'>
+function changeImage0() {
+document.img.src = 'BMP/f0.jpg';}
+function changeImage1() {
+document.img.src = 'BMP/f1.jpg';}
+function changeImage2() {
+document.img.src = 'BMP/f2.jpg';}
+function changeImage3() {
+document.img.src = 'BMP/f3.jpg';}
+function changeImage4() {
+document.img.src = 'BMP/f4.jpg';}
+function changeImage5() {
+document.img.src = 'BMP/f5.jpg';}
+function changeImage6() {
+document.img.src = 'BMP/f6.jpg';}
+function changeImage7() {
+document.img.src = 'BMP/f7.jpg';}
+</script>
+<img width="900" height="600" style="margin-left: 250px;" name = 'img' src = 'BMP/f0.jpg' />
+ </body>
+</html>

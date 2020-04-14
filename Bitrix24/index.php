@@ -6,9 +6,9 @@ function redirect($url)
     die();
 }
 
-define('APP_ID', 'local.564084a58ad8b0.76333855'); // take it from Bitrix24 after adding a new application
-define('APP_SECRET_CODE', '1798efe41b0c132c1ea756beae819560'); // take it from Bitrix24 after adding a new application
-define('APP_REG_URL', 'http://your-server.com/index.php'); // the same URL you should set when adding a new application in Bitrix24
+define('APP_ID', 'local.5e95f4fd1e26d9.11165555'); // take it from Bitrix24 after adding a new application
+define('APP_SECRET_CODE', '25JaEEyc08ymL7WOL5mxgpqiCvHV2g6RuyWhKpebDkyE32ORKZ'); // take it from Bitrix24 after adding a new application
+define('APP_REG_URL', 'https://raw.githubusercontent.com/dimark57/dimark57/master/Bitrix24/index.php'); // the same URL you should set when adding a new application in Bitrix24
 
 
 $domain = isset($_REQUEST['portal']) ? $_REQUEST['portal'] : ( isset($_REQUEST['domain']) ? $_REQUEST['domain'] : 'empty');
